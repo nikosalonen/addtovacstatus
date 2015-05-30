@@ -8,7 +8,7 @@
 			"48": "ow48.png",
 			"128": "ow128.png" },
   "permissions": [
-    "storage", "*://steamcommunity.com/*", "https://api.steampowered.com/*" , "*://vacstat.us/*"
+    "storage", "*://steamcommunity.com/*", "*://vacstat.us/*"
   ],
   "options_ui": {
     "page": "setkey.html",
