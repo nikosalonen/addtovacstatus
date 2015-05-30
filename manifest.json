@@ -3,7 +3,7 @@
 
   "name": "Add to VacStat.us",
   "description": "Add player to your VacStat.us list with one click",
-  "version": "0.1",
+  "version": "0.1.1",
   "icons": { "16": "ow16.png",
 			"48": "ow48.png",
 			"128": "ow128.png" },
