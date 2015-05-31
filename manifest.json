@@ -16,7 +16,7 @@
   "content_scripts": [ {
     "js": [ "addtovac.min.js" ],
 	"run_at": "document_end",
-    "matches": [ "*://steamcommunity.com/id/*/friends*", "*://steamcommunity.com/profiles/*/friends*" ]
+    "matches": [ "*://steamcommunity.com/id/*/friends/coplay/*" ]
   }],
   "manifest_version": 2
 }
