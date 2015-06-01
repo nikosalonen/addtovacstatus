@@ -104,7 +104,7 @@ function removeOptions(selectbox)
         selectbox.remove(i);
     }
 }
-
+(adsbygoogle = window.adsbygoogle || []).push({});
 document.addEventListener('DOMContentLoaded', restore_options);
 document.getElementById('save').addEventListener('click',
         save_options);
