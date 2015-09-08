@@ -50,12 +50,9 @@ function getLists(a) {
     var selection = '';
     chrome.storage.sync.get("selectedlist", function (data) {
         if (typeof data['selectedlist'] == 'undefined') {
-
         }else{
           selection = data['selectedlist'];
         }
-
-
 
         var xhr = new XMLHttpRequest();
         xhr.open("GET", "https://vacstat.us/api/v1/list?_key=" + a, true);
@@ -64,8 +61,6 @@ function getLists(a) {
                 // JSON.parse does not evaluate the attacker's scripts.
                 var resp = JSON.parse(xhr.responseText);
                 if (!resp.error) {
-
-
                     arr = resp.my_list;
                     removeOptions(document.getElementById("vaclist"));
                     arr.forEach(function (item) {
@@ -87,13 +82,7 @@ function getLists(a) {
             }
         }
         xhr.send();
-
-
-
-
     });
-
-
 }
 
 function removeOptions(selectbox)
